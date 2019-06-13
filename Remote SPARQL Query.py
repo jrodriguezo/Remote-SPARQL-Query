@@ -15,7 +15,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 class Main:
 	def __init__(self, window):
 
-		#Initialization to know when you have clicked on "search"
+		#Initialization to know when he/she have clicked on "search"
 		self.has_been_called = False
 		self.wind = window
 		#Full window
@@ -192,7 +192,7 @@ class Main:
 		#End
 		workbook.close()
 
-# Class to copy, cut, and paste with ctrl+c, ctrl+x and ctrl+v
+# Class to copy, cut, and paste with ctrl+c, ctrl+x and ctrl+v in text inputs
 class Test(Text):
 	def __init__(self, master, **kw):
 		Text.__init__(self, master, **kw)
