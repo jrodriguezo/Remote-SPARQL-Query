@@ -21,6 +21,7 @@ class Main:
 		#Full window
 		self.wind.state('zoomed')
 
+
 		#To use an icon
 		#self.wind.iconbitmap("lens.ico")
 
@@ -66,7 +67,7 @@ class Main:
 		self.wind.filename =  filedialog.askopenfilename()
 		#Directory where Fuseki is found
 		#IMPORTANT change if user want another directory
-		os.chdir("C:\\Users\\ASUS\\Desktop\\TFG\\fuseki")
+		os.chdir(os.getcwd()+"\\fuseki")
 		#Initialized server and you can access through localhost:3030
 		s = subprocess.Popen(['java', '-jar', 'fuseki-server.jar','--file', self.wind.filename,'/Data'])
 		#Change text when is loaded
