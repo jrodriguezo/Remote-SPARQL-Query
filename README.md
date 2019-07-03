@@ -38,7 +38,7 @@ _NOTE: Another way is double click on the file._
 
 2. Load ontology dataset
 
-_choose file > select ontology file path_
+_Choose file > select ontology file path_
 
 _NOTE: Ontology must be in RDF or turtle format._
 
