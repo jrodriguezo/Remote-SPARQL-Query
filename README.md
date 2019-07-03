@@ -17,7 +17,7 @@ git clone https://github.com/jrodriguezo/Remote-SPARQL-Query
 ```
 2. Indicate the fuseki directory on line 70
 ``` 
-os.chdir(os.getcwd()+"\\fuseki")      # C:\Users\[Usuario]\Desktop\APP\fuseki
+os.chdir(os.getcwd()+"\\fuseki")      # C:\Users\[User]\Desktop\APP\fuseki
 ```
 3. Install the libraries
 ``` 
@@ -30,9 +30,9 @@ _NOTE: Tkinter is included by default in Python._
 
 ## Interactions
 
-1. Open application </br>
+1. Open application where it was saved</br>
 ``` 
-C:\Users\[Usuario]\Desktop\APP> py "Remote SPARQL Query.py"
+C:\Users\[User]\Desktop\APP> py "Remote SPARQL Query.py"
 ```
 _NOTE: Another way is double click on the file._
 
