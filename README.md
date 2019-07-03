@@ -30,7 +30,7 @@ _NOTE: Tkinter is included by default in Python._
 
 ## Interactions
 
-1. Open application where it was saved</br>
+1. Open application where it was saved through command line</br>
 ``` 
 C:\Users\[User]\Desktop\APP> py "Remote SPARQL Query.py"
 ```
