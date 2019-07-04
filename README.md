@@ -1,6 +1,6 @@
 # Remote-SPARQL-Query :mag:
 
-Application to make SPARQL queries to ontologies dataset serialized in RDF trough a Fuseki endpoint.
+Application to make SPARQL queries to ontologies dataset serialized in RDF through a Fuseki endpoint.
 
 ## Neccesary software 
 
